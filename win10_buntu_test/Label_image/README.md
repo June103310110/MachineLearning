@@ -30,7 +30,7 @@
 # 1.升級apt
 sudo apt update
 
-# 2.安裝pip3(Note: 用pip3而不是pip)
+# 2.安裝pip(Note: python3-pip = pip3)
 sudo apt install python3-pip
 
 # 3.安裝pillow(PIL)
