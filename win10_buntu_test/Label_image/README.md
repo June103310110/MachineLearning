@@ -16,14 +16,14 @@
 
 
 ### 專案流程:
-> ### 1. 安裝ubuntu 16.04 LTS
+> ## 1. 安裝ubuntu 16.04 LTS
 從windows的app store裡找到ubuntu 16.04 LTS並安裝。
 
 ![](https://i.imgur.com/oxazE7s.png)
 
 <br>
 
-> ### 2. ubuntu 環境設置
+> ## 2. ubuntu 環境設置
 
 
 ```
@@ -41,7 +41,7 @@ pip3 install https://dl.google.com/coral/python/tflite_runtime-2.1.0-cp36-cp36m-
 ```
 <br>
 
-> ### 3.  下載Label_image專案的必要資源
+> ## 3.  下載Label_image專案的必要資源
 - 專案github連結
 https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/examples/python
 
@@ -66,7 +66,7 @@ mv /tmp/mobilenet_v1_1.0_224/labels.txt /tmp/
 
 <br>
 
-> ### 4. 下載label_image.py
+> ## 4. 下載label_image.py
 由於我們只想要用TFlite來推論，不需要完整的Tensorflow，所以我們在前面就只有下載TFlite的部分。
 而Label_image這個專案在google的github上並不是專門為TFlite準備，所以我們要稍微修改程式碼。
 這邊可以讓各位直接下載修改好的程式碼到 **桌面** ，請點這個[連結](https://drive.google.com/open?id=1x-sHSo_69lY9oUVEWp6OoY92wBN9OJl4)，或者從前面參考連結那邊的[June的github專案位置](https://github.com/June103310110/MachineLearning/tree/master/win10_buntu_test/Label_image)裡面下載。
@@ -85,7 +85,7 @@ cp label_image.py ~
 
 <br>
 
-> ### 5. 推論模型
+> ## 5. 推論模型
 由於我們python版本是3.6.9，所以是使用`python3`這個指令來執行程式。
 
 ##### 執行的程式如下:
@@ -101,7 +101,7 @@ python3 label_image.py   --model_file /tmp/mobilenet_v1_1.0_224.tflite   --label
 
 <br>
 
-> ### 結論與補充: 
+> ## 結論與補充: 
 我們也可以把其他圖片放進去，他大致上的物件都還是能辨認出來的。
 
 如果要用其他圖片來推論，我們可以把圖片丟到/tmp的資料夾下，我們可以執行下面的指令。
