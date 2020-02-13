@@ -72,7 +72,7 @@ def main():
   _, height, width, _ = interpreter.get_input_details()[0]['shape']
 
   with picamera.PiCamera(resolution=(640, 480), framerate=30) as camera:
-    camera.start_preview()
+    camera.start_preview(fullscreen=False,window=(600,400,600,600))
     try:
       stream = io.BytesIO()
       for _ in camera.capture_continuous(
