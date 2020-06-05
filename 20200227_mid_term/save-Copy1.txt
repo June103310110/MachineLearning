@@ -1,0 +1,62 @@
+
+------------------------------------
+Fri Feb 28 22:04:22 2020
+(array([0.95372893, 0.74879743]), array([0.98091526, 0.54450058]), array([0.96713108, 0.63051305]), array([24627,  2573]))
+
+<bound method XGBModel.get_params of XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, gamma=0,
+              learning_rate=0.005, max_delta_step=0, max_depth=4,
+              min_child_weight=1, missing=None, n_estimators=2000, n_jobs=1,
+              nthread=None, objective='binary:logistic',
+              predictor='gpu_predictor', random_state=12, reg_alpha=0,
+              reg_lambda=1, scale_pos_weight=1, seed=None, silent=None,
+              subsample=1, tree_method='gpu_hist', verbosity=1)>
+------------------------------------
+Fri Feb 28 22:05:17 2020
+(array([0.95367737, 0.55328185]), array([0.95301904, 0.55693743]), array([0.95334809, 0.55510362]), array([24627,  2573]))
+
+<bound method XGBModel.get_params of XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, gamma=0,
+              learning_rate=0.005, max_delta_step=0, max_depth=6,
+              min_child_weight=1, missing=None, n_estimators=2000, n_jobs=1,
+              nthread=None, objective='binary:logistic',
+              predictor='gpu_predictor', random_state=12, reg_alpha=0,
+              reg_lambda=1, scale_pos_weight=9.738255033557047, seed=None,
+              silent=None, subsample=1, tree_method='gpu_hist', verbosity=1)>
+
+------------------------------------
+Fri Feb 28 22:07:25 2020
+(array([0.95239027, 0.81796263]), array([0.98773704, 0.52739992]), array([0.96974167, 0.64130435]), array([24627,  2573]))
+
+<bound method XGBModel.get_params of XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, gamma=0,
+              learning_rate=0.005, max_delta_step=0, max_depth=6,
+              min_child_weight=1, missing=None, n_estimators=2000, n_jobs=1,
+              nthread=None, objective='binary:logistic',
+              predictor='gpu_predictor', random_state=12, reg_alpha=0,
+              reg_lambda=1, scale_pos_weight=1, seed=None, silent=None,
+              subsample=1, tree_method='gpu_hist', verbosity=1)>
+------------------------------------
+Fri Feb 28 22:10:10 2020
+(array([0.94884603, 0.90988372]), array([0.99496488, 0.48659153]), array([0.97135835, 0.63408458]), array([24627,  2573]))
+
+<bound method XGBModel.get_params of XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, gamma=0,
+              learning_rate=0.005, max_delta_step=0, max_depth=12,
+              min_child_weight=1, missing=None, n_estimators=2000, n_jobs=1,
+              nthread=None, objective='binary:logistic',
+              predictor='gpu_predictor', random_state=12, reg_alpha=0,
+              reg_lambda=1, scale_pos_weight=1, seed=None, silent=None,
+              subsample=1, tree_method='gpu_hist', verbosity=1)>
+------------------------------------
+Fri Feb 28 22:19:57 2020
+(array([0.94929412, 0.75294118]), array([0.98294555, 0.49747377]), array([0.9658268, 0.5991107]), array([24627,  2573]))
+
+<bound method XGBModel.get_params of XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, gamma=0,
+              learning_rate=0.005, max_delta_step=0, max_depth=12,
+              min_child_weight=1, missing=None, n_estimators=2000, n_jobs=1,
+              nthread=None, objective='binary:logistic',
+              predictor='gpu_predictor', random_state=12, reg_alpha=0,
+              reg_lambda=1, scale_pos_weight=9.738255033557047, seed=None,
+              silent=None, subsample=1, tree_method='gpu_hist', verbosity=1)>

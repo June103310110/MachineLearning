@@ -1,0 +1,12 @@
+name: 旅宿名稱
+host_id: 所有人註冊ID
+neighbourhood_group: 行政區
+neighbourhood: 周圍的飯店
+latitude: 緯度
+longitude: 經度
+room_type: 房間形式
+price: 價格
+minimum_nights: 最短居住期程
+number_of_reviews: 已觀看數
+last_review: 最後觀看日期
+reviews_per_month: 每月被觀看次數
